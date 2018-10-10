@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Space";
+  src: url("./font/A-Space\ Black\ Demo.otf")
+}
+
+
+header {
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 80px;
+  width: 500px;
+  background-color: rgb(14, 0, 53);
+  font-family: "space";
+  font-size: 30px;
+}
+
+.atter img{
+  padding-top: 20px;
+  width: 460px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.atter {
+  margin-top: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(169, 171, 255);
+}
+
+.atter a{
+  font-family: space;
+  color: rgb(14, 0, 53);
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 100px;
+  /* display: block;
+  text-align: center; */
+  
+}
