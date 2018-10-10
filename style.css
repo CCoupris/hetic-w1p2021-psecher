@@ -3,7 +3,6 @@
   src: url("./font/A-Space\ Black\ Demo.otf")
 }
 
-
 header {
   color: rgb(255, 255, 255);
   margin-left: auto;
@@ -40,7 +39,6 @@ header {
 }
 
 .atter img{
-  padding-top: 20px;
   width: 460px;
   display: block;
   margin-left: auto;
@@ -56,11 +54,9 @@ header {
 }
 
 .atter p{
-
   padding-top: 10px;
   padding-bottom: 20px;
   text-align: center;
-  
 }
 
 .atter a{
@@ -68,4 +64,10 @@ header {
   color: rgb(14, 0, 53);
   text-decoration: none;
   font-size: 25px;
+}
+
+.atter h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 30px;
+  padding-top: 10px;
 }
