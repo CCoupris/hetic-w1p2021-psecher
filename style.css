@@ -7,12 +7,17 @@ header {
   color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  height: 80px;
-  width: 500px;
+  height: 150px;
+  width: 1000px;
   background-color: rgb(14, 0, 53);
   font-family: "space";
   font-size: 30px;
+}
+
+.logo{
+  height: 130px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .presentation {
