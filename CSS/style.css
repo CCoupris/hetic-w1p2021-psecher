@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "caption";
+  src: url("../font/OpenSerif-Book.ttf")
+}
+
+header {
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  height: 12vw;
+  width: 60vw;
+  background-color: rgb(14, 0, 53);
+  font-family: "space";
+  font-size: 30px;
+}
+
+.logo{
+  height: 10vw;
+  padding-left: 2vw;
+  padding-top: 1vw;
+}
+
+.brooklyn {
+  background-color: rgb(240, 240, 240);
+  width: 60vw;
+  height: 44vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+}
+
+.brooklyn img {
+  padding-top: 2vw;
+  padding-left: 2vw;
+  width: 56vw;
+}
+
+.brooklyn figcaption {
+  padding-top: 1vw;
+  padding-left: 3vw;
+  font-family: "caption";
+  opacity: 0;
+  font-size: 1.5vw;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
+
