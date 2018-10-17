@@ -20,7 +20,7 @@ header {
   padding-top: 1vw;
 }
 
-.brooklyn {
+figure {
   background-color: rgb(240, 240, 240);
   width: 60vw;
   height: 44vw;
@@ -29,14 +29,14 @@ header {
   margin-top: 1vw;
 }
 
-.brooklyn img {
+img {
   padding-top: 2vw;
   padding-left: 2vw;
   width: 56vw;
 }
 
-.brooklyn figcaption {
-  padding-top: 1vw;
+figcaption {
+  padding-top: 0.5vw;
   padding-left: 3vw;
   font-family: "caption";
   opacity: 0;
