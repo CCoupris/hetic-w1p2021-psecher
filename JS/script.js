@@ -1,0 +1,1 @@
+window.setTimeout("location=('index.html');",5000);
