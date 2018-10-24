@@ -3,37 +3,63 @@
   src: url("../font/OpenSerif-Book.ttf")
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1000px 1fr;
+  grid-template-rows: 8vh 13vw auto auto 5vh;
+  grid-gap: 5px;
+}
+
 header {
   color: rgb(255, 255, 255);
-  margin-left: auto;
-  margin-right: auto;
-  height: 8vh;
-  background-color: rgb(10, 0, 35);
   font-family: "space";
   font-size: 30px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.header-background {
+  background-color: rgb(10, 0, 35);
+  grid-column: 1 / span 3;
+  grid-row: 1;
 }
 
 footer {
-  height: 10vh;
+  height: 6vh;
   background-color: rgb(31, 27, 48);
   margin-top: 1vw;
+  text-align: center;
+  padding: 5vh;
+  grid-column: 1 / span 3;
+  grid-row: 5;
+}
+
+footer p{
+  color: white;
+  font-size: 1.5vh;
 }
 
 .logo{
   height: 6vh;
   padding-left: 1vh;
   padding-top: 1vh;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 article {
   background-color: rgb(240, 240, 240);
-  width: 60vw;
-  height: 13vw;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1vw;
   font-family: "caption";
   text-align: center;
+  grid-column: 2;
+  grid-row: 2;
 }
 
 article h1 {
@@ -50,22 +76,26 @@ article h2 {
 
 figure {
   background-color: rgb(240, 240, 240);
-  width: 60vw;
-  height: 44vw;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 1vw;
+  grid-column: 2;
+}
+
+figure:nth-of-type(1) {
+  grid-row: 3;
+}
+
+figure:nth-of-type(2) {
+  grid-row: 4;
 }
 
 .photo img {
-  padding-top: 2vw;
-  padding-left: 2vw;
-  width: 56vw;
+  width: 100%;
+  padding: 2%;
 }
 
 figcaption {
-  padding-top: 0.5vw;
-  padding-left: 3vw;
+  padding-left: 2vh;
+  padding-bottom: 2vh;
   font-family: "caption";
   opacity: 0;
   font-size: 1.5vw;
@@ -73,5 +103,6 @@ figcaption {
 
 figure:hover figcaption {
   opacity: 1;
+  transition-duration: 1s;
 }
 

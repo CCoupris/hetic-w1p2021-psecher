@@ -1,6 +1,6 @@
 #cible {
   height: 100vh;
-  background-color: rgb(14, 0, 53);
+  background-color: rgb(10, 0, 35);
   -webkit-transition: all .5s ease-in;
   transition: all 0.7s ease-in-out;
 }
@@ -14,14 +14,14 @@
 }
 
 #cible:target img {
-  height: 3vw;
-  margin-left: 2vw;
-  margin-top: 1vw;
+  height: 6vh;
+  margin-left: 1vh;
+  margin-top: 1vh;
 }
 
 
 #cible:target {
-  height: 5vw;
+  height: 8vh;
 }
 
 
